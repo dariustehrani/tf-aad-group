@@ -12,3 +12,4 @@ resource "azuread_group" "team" {
     for_each = toset(var.aad-group-projects)
     name = "${var.aad-group-name-prefix}-${each.key}-team"
 }
+
