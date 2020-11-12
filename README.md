@@ -27,4 +27,5 @@ Create groups in AAD with Terraform from a list.
 | aad-group-projects | the prefix to be added to all AAD Group names | `list(string)` | n/a | yes |
 | tags | A map of the tags to use for the resources that are deployed | `map(string)` | n/a | yes |
 
-
+# Terraform Graph
+![TF-Graph](docs/graph.png)
